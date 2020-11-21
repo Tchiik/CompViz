@@ -1,0 +1,19 @@
+### Train the base model :using pre-trained COCO weights(I ran using these weights,Download 'mask_rcnn_coco.h5' weights before starting the training)
+
+python custom_1.py train --dataset=/Users/makhtar/Documents/CompViz/custom --weights=coco
+
+### Train the base model using pre-trained imagenet weights(for this to download imagenet weights))
+py custom_1.py train --dataset=/Users/makhtar/Documents/CompViz/custom --weights=imagenet
+
+## We can even resume from the latest saved callback(latest saved weights)
+python3 custom.py train --dataset=/Users/makhtar/Documents/CompViz/custom --weights=last
+
+python C:/Users/MaTall/Documents/Computer Vision/car-damage-detection-using-CNN-master/custom_1.py train --dataset=C:/Users/
+MaTall/Documents/Computer Vision/car-damage-detection-using-CNN-master --weights=coco
+
+py custom_1.py train --dataset=/Users/makhtar/Documents/CompViz/custom --weights=coco
+
+
+python /Users/makhtar/Documents/CompViz/custom_1.py train --dataset=/Users/makhtar/Documents/CompViz/custom --weights=coco
+
+/Users/makhtar/Documents/CompViz/custom_1.py
